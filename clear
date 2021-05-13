@@ -1,0 +1,104 @@
+[33mcommit 51925e7fa4a8f77344c4b960363656469afefc1a[m[33m ([m[1;36mHEAD -> [m[1;32mlista[m[33m)[m
+Author: Ana <ana@gmail.com>
+Date:   Thu May 13 20:07:02 2021 -0300
+
+    Inclusao de frase no curso de docker
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 0220c00..cbc7683 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -7,7 +7,7 @@[m
+ <body>[m
+     <ul>[m
+         <li>Vagrant</li>[m
+[31m-        <li>Docker</li>[m
+[32m+[m[32m        <li>Curso de Docker</li>[m
+         <li>Ansible</li>[m
+         <li>integracao Continua</li>[m
+ 	<li>kubbernets</li>[m
+
+[33mcommit c6623943701b43f84fd892b318004ef1b8fd8d2a[m
+Author: Ana <ana@gmail.com>
+Date:   Wed May 12 18:40:14 2021 -0300
+
+    inclusao de curso kubernet
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 8ca8ae3..0220c00 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -10,6 +10,7 @@[m
+         <li>Docker</li>[m
+         <li>Ansible</li>[m
+         <li>integracao Continua</li>[m
+[32m+[m	[32m<li>kubbernets</li>[m
+     </ul>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit d7bd3086a2c9e3bdc2945a2fb07c938e5dd1340e[m
+Author: Ana <ana@gmail.com>
+Date:   Tue May 11 20:53:58 2021 -0300
+
+    tirando acento do curso de integracao continua
+
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 1a88188..8ca8ae3 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -9,7 +9,7 @@[m
+         <li>Vagrant</li>[m
+         <li>Docker</li>[m
+         <li>Ansible</li>[m
+[31m-        <li>integração Contínua</li>[m
+[32m+[m[32m        <li>integracao Continua</li>[m
+     </ul>[m
+ </body>[m
+ </html>[m
+\ No newline at end of file[m
+
+[33mcommit e34b22c218d1a6629b51dd008e6717987f837162[m
+Author: Suellem <suellem_04@hotmail.com>
+Date:   Tue May 11 20:36:30 2021 -0300
+
+    adicionado gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..97b69ca[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mideconfig.html[m
+\ No newline at end of file[m
+
+[33mcommit 7723cfc6f25627bd174b2708c603ab5568dc519e[m
+Author: Suellem <suellem_04@hotmail.com>
+Date:   Tue May 11 20:35:45 2021 -0300
+
+    criação de index.html
+
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1a88188[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,15 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="en">[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <title>Cursos da Alura</title>[m
+[32m+[m[32m</head>[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <ul>[m
+[32m+[m[32m        <li>Vagrant</li>[m
+[32m+[m[32m        <li>Docker</li>[m
+[32m+[m[32m        <li>Ansible</li>[m
+[32m+[m[32m        <li>integração Contínua</li>[m
+[32m+[m[32m    </ul>[m
+[32m+[m[32m</body>[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
